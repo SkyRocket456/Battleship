@@ -8,7 +8,7 @@ from server_functions.Queue_System import Queue
 from server_functions.ServerLog import ServerLog
 from server_functions.server_client_threads import Client_In_Username_Screen
 
-server = "0.0.0.0"
+server = "10.145.16.29"
 port = 8888
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

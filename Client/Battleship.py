@@ -3,6 +3,9 @@ from Client.client_functions.MenuScreen import menu_screen
 from Client.client_functions.InQueue import In_Queue
 from Client.client_functions.Battleship_Client import Battleship
 from info.Codes import *
+import os
+
+os.chdir('../')
 
 while askForUsername() != GAME_CLOSED:  # Ask the player for their username. If they closed the window, quit the game
     menu_authorization = menu_screen()  # Enter the main menu
